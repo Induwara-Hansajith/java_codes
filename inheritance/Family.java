@@ -11,5 +11,13 @@ public class Family{
         Son s1 = new Son();
         s1.laptop = "HP";
         s1.code();
+
+        s1.car = "Toyota";
+
+        Dau d1 = new Dau();
+        d1.bike = "Bike";
+        d1.ride();
+
+
     }
 }
