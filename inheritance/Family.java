@@ -18,6 +18,11 @@ public class Family{
         d1.bike = "Bike";
         d1.ride();
 
+        Gfather g1 = new Gfather();
+        g1.gcar = "cart";
+
+        g1.mortion();
+
 
     }
 }

@@ -1,6 +1,6 @@
 //farther class => parent | super calss
 
-public class Father{
+public class Father extends Gfather{
 
     String car;
     String phone;
