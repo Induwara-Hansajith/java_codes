@@ -10,7 +10,10 @@ public class Family{
 
         Son s1 = new Son();
         s1.laptop = "HP";
+        s1.bike = "Honda";
         s1.code();
+        s1.travel();
+        s1.coding();
 
         s1.car = "Toyota";
 

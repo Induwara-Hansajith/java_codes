@@ -1,6 +1,6 @@
 //farther class => parent | super calss
 
-public class Father extends Gfather{
+abstract class Father extends Gfather{
 
     String car;
     String phone;
@@ -12,5 +12,7 @@ public class Father extends Gfather{
     public void call(){
         System.out.println("Call with : "+phone);
     }
-}
 
+    abstract void coding();
+
+}
